@@ -1,0 +1,211 @@
+body
+{
+    background-color:  rgb(254,252,243);
+    color:#046A38;
+}
+
+.navbar-inverse
+{
+    background-color:rgb(254,252,243);
+    border-color: rgb(254,252,243);
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+li
+{
+    padding-left: 100px;
+}
+
+.logo
+{
+   margin-left:10%;
+    height:150px;
+    width:350px;
+    margin-top: 60px;
+
+}
+
+ .dottedCircle
+{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border:4px dotted #046A38;
+            color:#046A38;
+            text-align: center;
+            background-color: rgb(254,252,243);
+            margin-top: 70px;
+            margin-left: 40px;
+            
+}
+
+#myCarousel
+{
+    margin-top:-70px;
+    z-index: -1;
+}
+
+#left
+{
+    height:400px;
+    width:650px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#right
+{
+    height:500px;
+    width:300px;
+    float: right;
+    margin-top: -600px;
+    margin-right: 60px;
+}
+.para
+{
+    font-size: 38px;
+    width:500px;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'rasmusregular',serif;
+}
+
+ p::before {
+    content: "-'-";
+
+}
+
+ p::after {
+    content:"-'-" ;
+
+}
+
+.dottedsquare
+{
+    height:400px;
+    width: 100%;
+    border: 4px dotted #046A38;
+    display: flex;
+    
+ 
+}
+ h4 span
+{
+    display: block;
+    margin-left:40px;
+    line-height: 30px;
+    padding-left: 55px;
+    cursor: pointer;
+    
+}
+
+.first, .second, .third, .forth, .fifth
+{
+    
+    padding-right:80px;
+    border-right:3px dotted green;
+    margin-bottom:  20px;
+}
+
+.square
+{
+    height:250px;
+    width:250px;
+    border: 3px dotted #046A38;
+    margin-left: 170px;
+    margin-top: 80px;
+    transform: rotate(43deg);
+
+}
+.cheese
+{
+   height:600px;
+    width:500px;
+    margin:100px 0 0 80px;
+    float:right;
+    margin-top:-500px
+}
+
+.drawing
+{
+    height:600px;
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.about{
+    float: right;
+    width:400px;
+    margin-top: 250px;
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.interior
+{
+    height:700px;
+    width:500px;
+    margin:180px 0 0 50px;
+}
+
+.oval
+{
+    height:450px;
+    width: 300px;
+    border: 3px dotted #046A38;
+    float: right;
+    margin:100px 100px 0 0;
+     border-radius: 50%;
+}
+.btn-default
+{
+    background-color:rgb(254,252,243);
+    border-color: #046A38;
+    color: #046A38;
+    width:150px;
+    margin-top: 40px;
+    
+}
+.btn-default:hover
+{
+    background-color:  #046A38;
+    color:rgb(254,252,243)
+}
+
+.kitchen
+{
+    float:right;
+    height:300px;
+    width: 450px;
+    margin-top: 200px;
+    margin-right: -50px;
+}
+
+.newsletter
+{
+    height:200px;
+    width:600px;
+   margin-left: 250px;
+    border: 3px dotted #046A38;
+    margin-top: 300px;
+}
+.email
+{
+    text-decoration:underline;
+   font-family: 'Wire One', sans-serif;
+    font-size:20px;
+    margin-left:140px;
+   
+}
+.footer
+{
+    height:200px;
+    border: 2px solid #046A38;
+    margin-top: 100px;
+}
